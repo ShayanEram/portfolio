@@ -19,26 +19,417 @@
 
   <div class="container">
     <div class="project">
-      <h2>Drone</h2>
-      <p>Ceci est un projet drone.</p>
+      <h2>OscilloGen</h2>
+      <p>Projet Microcontrôleur : Développer un micrologiciel en C/C++ et d’une interface graphique en C# pour la conception d’un Oscilloscope doté de fonctionnalités de Générateur de Fonctions, basé sur une carte STM32 qui peut être contrôlé par son interface.</p>
       <ul>
-        <li>utilise C++</li>
-        <li>utilise OOP</li>
+        <li>Utiliser des interfaces microcontrôleurs tels que GPIO, DMA, Timers et interruptions.</li>
+        <li>Acquérir et générer de signaux via ADC/DAC embarqués ou FPGA externe.</li>
+        <li>Implémenter des protocoles SPI, I2C, USART/UART, et USB pour la communication externe.</li>
+        <li>Accélérer des calculs trigonométriques à l’aide de CORDIC et de la librairie CMSIS-DSP.</li>
+        <li>Implémenter du watchdog indépendant (IWDG) pour prévenir les blocages logiciels.</li>
+        <li>Implémenter une architecture logicielle modulaire en C++ orienté objet, avec abstraction du matériel.</li>
+        <li>Programmer en bare-metal via écriture directe dans les registres du microcontrôleur.</li>
+        <li>Optimiser le traitement par des fonctions critiques écrites en Assembleur ARM.</li>
+        <li>Développer une interface utilisateur en C# avec Windows Forms et avec un design moderne.</li>
+        <li>Implémenter une interface pour l’oscilloscope, le générateur de fonction et la mise à jour du micrologiciel.</li>
+        <li>Implémenter une architecture modulaire de l’application PC avec multiples pages WinForms.</li>
+        <li>Implémenter de tests unitaires avec GoogleTest (C++) et NUnit (C#).</li>
+        <li>Utiliser des outils: STM32CubeIDE, Visual Studio Code, Git, CMake, GNU Toolchain.</li>
       </ul>
       <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
       <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>Cecli est unb projet oscilloscope.</p>
+      <h2>Drone UAV</h2>
+      <p>Projet Embarqué C++: Développer du logiciel embarqué d’un drone (UAV) en C++ moderne, intégrant des concepts avancés d’architecture logicielle, temps réel, communication et supervision à distance.</p>
       <ul>
-        <li>utilise C++ et C</li>
-        <li>utilise POO et fonctions</li>
+        <li>Concevoir d’une architecture logicielle modulaire en C++ avec programmation orientée objet avancée.</li>
+        <li>Implémenter un système temps réel avec exécution asynchrone et multithreadée.</li>
+        <li>Implémenter la communication distante avec le drone via un protocole client-serveur basé sur TCP/IP.</li>
+        <li>Implémenter des modèles de communication inter-threads : Observer, Message Queue, Singleton.</li>
+        <li>Utiliser un accès direct au matériel via les interfaces systèmes Linux : I2C, PWM, UART, fichiers.</li>
+        <li>Acquérir et traiter de données multi-capteurs (altitude, vitesse, orientation, batterie).</li>
+        <li>Générer des fichiers de compilation avec CMake, Make et la GNU Toolchain.</li>
+        <li>Écrire et exécuter de tests unitaires avec Google Test.</li>
       </ul>
       <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
       <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
+
+    <div class="project">
+      <h2>Avion F25</h2>
+      <p>Projet Aérospatial C++: Concevoir un système avionique embarqué reliant les commandes du pilote au calculateur de vol, en utilisant le langage C++ et des protocoles de communication avioniques, afin de permettre un contrôle fiable de l’appareil.</p>
+      <ul>
+        <li>Générer des fichiers de compilation avec CMake, Make et la GNU Toolchain.</li>
+        <li>Documenter le code source avec Doxygen et effectuer la gestion de version sur Git.</li>
+        <li>Développer une interface Web en HTML pour l’entrée de commandes en temps réel.</li>
+        <li>Application de méthodes thread-safe pour assurer la synchronisation entre les threads.</li>
+        <li>Implémenter du multithreading en C++ pour paralléliser les processus de modules (ARINC 653).</li>
+        <li>Utiliser des protocoles de communication ARINC 429 et AFDX pour la transmission entre les modules.</li>
+        <li>Afficher dynamiquement des paramètres de vol (angle d’attaque, vitesse, altitude) à destination du pilote.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Agent de jeu en Intelligence Artificiel</h2>
+      <p>Project IA : Concevoir un agent intelligent pour un jeu de société en Python, basé sur l’algorithme Minimax, avec élagage alpha-bêta, heuristiques personnalisées et optimisation des ressources. L’objectif était d’affronter des joueurs humains et d’autres agents IA dans un contexte compétitif.</p>
+      <ul>
+        <li>Implémenter des algorithmes d’IA tel que Minimax avec élagage alpha-bêta de type A et B.</li>
+        <li>Développer des heuristiques pour améliorer la performance stratégique et la gestion des points.</li>
+        <li>Collaborer en binôme avec gestion de version via Git pour un développement structuré et collaboratif.</li>
+        <li>Utiliser des fonctionnalités avancées Python : programmation orientée objet, collections, compréhensions.</li>
+        <li>Appliquer des techniques d’optimisation pour réduire la consommation de ressources et accélérer la réponse.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Système d’automobile</h2>
+      <p>Projet Embarqué Java : Développer un logiciel embarqué en Java pour le pilotage et la supervision d’un véhicule moderne, intégrant des concepts avancés d’architecture logicielle, de traitement temps réel et de gestion de données embarquées.</p>
+      <ul>
+        <li>Concevoir une architecture modulaire avec des modules fonctionnels indépendants.</li>
+        <li>Implémenter un système temps réel avec programmation multithreadée pour garantir la réactivité.</li>
+        <li>Intégrer une base de données SQL via JDBC pour gérer l’historique de maintenance du véhicule.</li>
+        <li>Implémenter la gestion avancée des fichiers (File I/O) pour l’acquisition et la liaison avec les capteurs.</li>
+        <li>Mettre en place un mécanisme robuste de gestion des exceptions pour assurer la fiabilité du système.</li>
+        <li>Implémenter des appels API pour la position GPS et l’analyse des données JSON avec un JSON Parser.</li>
+        <li>Utiliser des collections Java pour manipuler efficacement les structures de données complexes.</li>
+        <li>Implémenter un modèle client-serveur (TCP/IP) pour les fonctionnalités télématiques.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Réseau Neurone sur FPGA</h2>
+      <p>Projet C++/Scala : Développer un réseau de neurones multicouches pour la classification de chiffres manuscrits à l’aide du jeu de données MNIST. L’implémentation s’effectue à la fois en C++ HLS (générant du VHDL) et en Scala Chisel (générant du Verilog) pour une exécution sur FPGA (PYNQ).</p>
+      <ul>
+        <li>Utiliser les outils Vitis HLS et Xilinx Vivado avec une carte FPGA dotée d’un ASIC intégré.</li>
+        <li>Écrire du code en Scala Chisel pour générer du Verilog destiné à une synthèse matérielle.</li>
+        <li>Réaliser une analyse des performances et de l’utilisation des ressources entre les deux implémentations.</li>
+        <li>Développer du code C/C++ HLS optimisé, converti ensuite en VHDL pour une implémentation matérielle.</li>
+        <li>Concevoir des IP personnalisés avec Vivado et assurer la communication avec l’ASIC via le protocole DMA.</li>
+        <li>Effectuer une première validation de l’algorithme en Python et C++ sur un processeur sous forme logiciel.</li>
+        <li>Appliquer des concepts d’intelligence artificielle, notamment les réseaux de neurones multicouches (MLP).</li>
+        <li>Implémenter le réseau neuronal sur FPGA et valider les résultats à l’aide d’un Notebook Jupyter en Python.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Reconnaissance faciale en compilation croisée sur Linux</h2>
+      <p>Projet compilation croisée C++ : Développer un programme de reconnaissance faciale via la compilation croisée entre un ordinateur d'architecture x86 et un microcontrôleur d'architecture ARM sous Linux, en utilisant le langage C++ sur l'IDE VS Code. L'objectif est de reconnaître un visage parmi d'autres.</p>
+      <ul>
+        <li>Documenter le code avec Doxygen et sauvegarder sur Git/Bitbucket.</li>
+        <li>Générer de fichiers de compilation avec CMake, make et GNU Toolchaine.</li>
+        <li>Utiliser des mécanismes fork-exec pour l'exécution en parallèle des programmes.</li>
+        <li>Appliquer des protocoles de TCP/IP Sockets pour la compilation croisée sur Linux.</li>
+        <li>Utiliser la ligne de commande Linux (Bash et Tcsh) et mise en œuvre de la gestion des périphériques Linux.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Jeu vidéo F1 sur microcontrôleur ARM</h2>
+      <p>Projet Microcontrôleur : Améliorer le jeu vidéo T-Rex en intégrant les concepts de microcontrôleur, l'architecture ARM et la programmation Assembleur pour rendre le jeu multijoueur avec un capteur IR et d'un capteur ultrasonique.</p>
+      <ul>
+        <li>Créer une vidéo publicitaire présentant le produit.</li>
+        <li>Appliquer des protocoles de communication série (UART, SPI, I2C).</li>
+        <li>Collaborer au sein d'une équipe de trois personnes pour la conception du jeu vidéo.</li>
+        <li>Écrire de Tests Unitaires à l'aide de Unity pour vérifier le fonctionnement du programme.</li>
+        <li>Utiliser des microcontrôleurs avec les langages informatiques C et assembleur ARM sur Keil uVision5.</li>
+        <li>Appliquer des connaissances en microcontrôleur avec STM32Cube et transfert de données (DMA, DAC, ADC).</li>
+        <li>Configurer les différents périphériques sur STM32CubeMX, tels que les GPIO, les Timers et les Interruptions.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Librairie graphique Qt Creator</h2>
+      <p>Projet POO GUI en C++ : Développer une librairie avec interface graphique (GUI) en mettant en œuvre les principes de programmation orienté objet C++, la gestion des exceptions et Qt Creator afin de facilement classifier les différents Pokémon selon leur statistique.</p>
+      <ul>
+        <li>Utiliser de Visual Studio et Qt Creator.</li>
+        <li>Collaborer au sein d'une équipe de deux personnes. </li>
+        <li>Mettre en œuvre les principes du patron modèle-vue-contrôleur sur Qt Creator et POO sur C++.</li>
+        <li>Écrire de Tests Unitaires à l'aide de Google Test pour vérifier les classes et les fonctions du programme.</li>
+        <li>Utiliser les concepts d’encapsulation, d’héritage, polymorphisme, abstraction et des modèles (Templates).</li>
+        <li>Utiliser les concepts Surcharge des opérateurs, Gestion des Exceptions et STL (Standard Template Library).</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Solveur Max-Cut sur FPGA</h2>
+      <p>Projet C++ HLS : Résoudre le problème d’optimisation NP-difficile Max-Cut sur un FPGA en utilisant l’algorithme du recuit simulé via l’outil HLS en C++. Une attention particulière est portée à l’écriture d’un code C++ optimisé afin de générer efficacement du code VHDL pour une implémentation matérielle sur FPGA (PYNQ).</p>
+      <ul>
+        <li>Valider des résultats sur FPGA via un Notebook Jupyter en Python.</li>
+        <li>Utiliser les outils Vitis HLS et Xilinx Vivado avec une carte FPGA intégrant un ASIC.</li>
+        <li>Vérifier l’algorithme initial en Python et C++ sur un processeur (CPU) sous forme logiciel.</li>
+        <li>Appliquer des techniques d’optimisation issues de l’intelligence artificielle, comme le recuit simulé.</li>
+        <li>Développer un code C/C++ optimisé, convertible en VHDL pour une implémentation en portes logiques.</li>
+        <li>Analyser en profondeur les différences de performance et les ressources utilisées entre les implémentations.</li>
+        <li>Implémenter des IP personnalisés avec Vivado et assurer la communication avec l’ASIC via le protocole DMA.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Jeu Mastermind sur FPGA</h2>
+      <p>Projet VHDL : Créer une version électronique du jeu Mastermind sur une carte FPGA en utilisant le langage matériel VHDL avec l'environnement VIVADO Xilinx, et en implémentant le jeu sur la plateforme de développement Nexys Video de Digilent (Artix-7).</p>
+      <ul>
+        <li>Collaborer au sein d'une équipe de deux personnes pour la conception du jeu.</li>
+        <li>Gérer l'initialisation et de la mise hors tension d'un écran OLED et utiliser de mémoires ROM et RAM.</li>
+        <li>Procéder par les étapes de développement VHDL (Analyse RTL, Synthèse, Implémentation, Simulation).</li>
+        <li>Vérifier les codes VHDL en écrivant des bancs de test et implémenter des IP et utiliser analyseur logique.</li>
+        <li>Implémenter des machines à états finis (MSA), de circuits antirebonds, synchroniseurs et diviseur d’horloge.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Processeur CPU RISC-V</h2>
+      <p>Projet circuit intégré : Concevoir un processeur RISC-V à cinq étages de pipelines en utilisant VHDL sur Active-HDL et créer des dessins de masques pour placement des routages. Le processeur est réalisé pour exécuter des commandes en langage assemblé RISC-V.</p>
+      <ul>
+        <li>Collaborer au sein d'une équipe de deux personnes. </li>
+        <li>Créer des dessins de masques sur Virtuoso de Cadence.</li>
+        <li>Vérifier et simuler les codes VHDL en écrivant des bancs de test.</li>
+        <li>Utiliser un fichier package et regrouper les signaux pour assurer la propreté du code.</li>
+        <li>Implémenter de la pipeline Fetch, Decode, Execute, Memory, Write Back avec ALU, Adder, Shift_Register, etc.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Portefeuille d’actions et d'investissements</h2>
+      <p>Projet API en C# : Développer un programme de portefeuille d'investissement utilisant le langage C# avec Visual Studio et .NET. Ce programme permet à un utilisateur de suivre les actions d'une entreprise, de s'authentifier pour acheter ou vendre des actions, ou de vérifier les informations sur une entreprise avec son API personnel.</p>
+      <ul>
+        <li>Utiliser de REST API et lire dans un fichier JSON.</li>
+        <li>Appliquer des concepts de programmation orientée objet et de C#.</li>
+        <li>Utiliser des API personnalisées et publiques pour vérifier l'état des actions des entreprises.</li>
+        <li>Rendre le programme modulaire en utilisant des classes et des méthodes sur différents fichiers.</li>
+        <li>Respecter l'encapsulation en définissant des classes publiques et privées pour assurer la sécurité du système.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Gestion des finances personnelles</h2>
+      <p>Projet Data Base en Python : Développer un programme de suivi de l’argent utilisant le langage Python avec programmation orientée objet (OOP) et SQL. Le programme permet de saisir et d'enregistrer les dépenses et le budget personnel sur une période donnée, soit dans un fichier CSV soit dans une base de données SQL, selon les préférences de l'utilisateur.</p>
+      <ul>
+        <li>Utiliser les concepts Gestion des Exceptions pour garantir la fluidité du programme.</li>
+        <li>Appliquer les concepts du langage Python et les principes de la programmation orientée objet.</li>
+        <li>Rendre le programme modulaire en utilisant des classes et des définitions sur différents fichiers.</li>
+        <li>Effectuer des opérations de lecture et d'écriture sur une base de données SQL et sur des fichiers CSV</li>
+        <li>Utiliser les environnements de développement VS Code et PyCharm et documenter le code avec Doxygen.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Générateur de Courriel</h2>
+      <p>Projet en Java : Développer un programme permettant de gérer les adresses courriels utilisant le langage Java sur VS Code. Ce programme permet à une entreprise de générer des courriels pour ces employées selon leurs emplois dans l’entreprise et à l’employeur de le personnaliser.</p>
+      <ul>
+        <li>Encapsuler les informations sensibles et les opérations de gestion.</li>
+        <li>Générer de mots de passe robustes et sécurisés à l'aide de SecureRandom.</li>
+        <li>Utiliser des techniques de manipulation de chaînes pour générer des adresses électroniques.</li>
+        <li>Documenter le projet à l'aide de commentaires Doxygen afin d'améliorer la lisibilité et la maintenabilité.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Serrure intelligente avec transfert de puissance à distance</h2>
+      <p>Projet Intégrateur 3 : Concevoir une serrure intelligente alimentée à distance en utilisant un microcontrôleur (C) et un circuit d’induction d’électromagnétique qui permet d'ouvrir la serrure à l'aide d’un téléphone portable et RFID, tout en alimentant le dispositif sans aucun contact physique.</p>
+      <ul>
+        <li>Effectuer des recherches et documentations du projet de manière autonome.</li>
+        <li>Vérifier le projet et l’avancement du projet sous la supervision d'un ingénieur électrique.</li>
+        <li>Créer des diagrammes schématiques du circuit et concevoir le projet de manière autonome.</li>
+        <li>Rédiger un rapport technique d'ingénierie et présenter le prototype de façon professionnelle.</li>
+        <li>Respecter les étapes de conception d’un projet d’ingénierie et les échéanciers pour chaque étape du projet.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Street Warfare (Jeu de tir à la troisième personne)</h2>
+      <p>Projet Jeu Vidéo: Concevoir un jeu vidéo multijoueur 6v6 en vue troisième personne sur Unreal Engine 5, jouable en ligne ou contre une intelligence artificielle, mettant en œuvre des mécaniques de tir tactique et un environnement immersif.</p>
+      <ul>
+        <li>Créer une carte de jeu avec des éléments interactifs et un level design optimisé.</li>
+        <li>Développer un menu interactif offrant diverses options de jeu.</li>
+        <li>Intégrer des personnages réalistes via MetaHuman.</li>
+        <li>Importer et synchroniser des animations avec effets sonores intégrés.</li>
+        <li>Intégrer des modèles 3D (meshes) de personnages, armes et décors.</li>
+        <li>Implémenter des logiques de gameplay à l’aide des Blueprints et du C++ sous Unreal Engine.</li>
+        <li>Effectuer des itérations successives du gameplay en fonction des retours de sessions de playtests.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Audit de sécurité et de test d’intrusion</h2>
+      <p>Cybersécurité : Réaliser un audit de sécurité dans un environnement simulé en utilisant Kali Linux et divers outils de test d’intrusion. Le projet inclut l’identification de vulnérabilités critiques, l’exploitation éthique de failles pour démontrer l’élévation de privilèges, ainsi que la formulation de recommandations concrètes pour renforcer la sécurité du système.</p>
+      <ul>
+        <li>Obtenir un accès administrateur par élévation de privilèges.</li>
+        <li>Mener un audit de sécurité complet dans un environnement contrôlé et isolé.</li>
+        <li>Utiliser Kali Linux sur une machine virtuelle avec des serveurs déployés via Docker.</li>
+        <li>Rédiger des recommandations techniques pour remédier aux vulnérabilités identifiées.</li>
+        <li>Détecter des failles critiques et les exploiter de manière éthique à des fins de démonstration.</li>
+        <li>Identifier des adresses IP, scanner les ports et analyser les services à l’aide de Netdiscover et Nmap.</li>
+        <li>Exploiter des vulnérabilités et déchiffrer des mots de passe hachés à l’aide de Metasploit et Hashcat.</li>
+        <li>Détecter des répertoires cachés et identifier des failles dans un site WordPress avec DirBuster et WPScan.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Jeu vidéo de Tic-Tac-Toe</h2>
+      <p>Projet GUI en Python: Développer le jeu Tic-Tac-Toe, joué par deux personnes, en utilisant le langage Python avec PyQt Designer sur MS Windows. L'objectif est d'utiliser Python avec une interface graphique pour déterminer le gagnant du jeu.</p>
+      <ul>
+        <li>Documenter le code avec Doxygen.</li>
+        <li>Utiliser les environnements de développement VS Code.</li>
+        <li>Écrire un programme modulaire en utilisant des définitions.</li>
+        <li>Utiliser des fonctionnalités du PyQt Designer et appliquer les notions de design d'interface graphique.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Navigateur web Qt</h2>
+      <p>Projet personnel en Python avec PyQt5 : Améliorer un navigateur web en utilisant Python et PyQt5 sur Visual Studio pour permettre une navigation sur Internet sans l'utilisation d'une interface graphique (GUI).</p>
+      <ul>
+        <li>Utiliser des fonctionnalités de PyQt5.</li>
+        <li>Appliquer des concepts du langage Python.</li>
+        <li>Ajouter de personnalisation au navigateur web.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Site web Voyage en Nature</h2>
+      <p>Projet Front-End : Développer un site web personnalisé en utilisant les langages HTML, CSS et JavaScript sur Visual Studio Code avec Live Server, dans le but de créer un site web interactif et esthétique pour promouvoir les activités en plein air.</p>
+      <ul>
+        <li>Appliquer des concepts du langage HTML5, Javascript, CSS.</li>
+        <li>Mettre en pratique le développement de sites web interactifs.</li>
+        <li>Créer de documentation structurée et facilement accessible avec Doxygen.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Matlab et Simulink</h2>
+      <p>Matlab et Simulink: Utiliser à plusieurs reprises des outils Matlab et Simulink pour simuler le comportement des systèmes. Utiliser ces logiciels pour simuler des systèmes à rétroaction en boucle fermée, ainsi que pour simuler la réponse des systèmes en télécommunication et analyser les signaux.</p>
+      <ul>
+        <li>Effectuer des calculs matriciels en utilisant Matlab.</li>
+        <li>Écrire des fichiers de fonctions et utiliser des fonctions de Matlab.</li>
+        <li>Écrire et simuler des fonctions de transfert sur Simulink et Matlab.</li>
+        <li>Créer des tableaux de simulations dans Simulink et des données de calcul dans Matlab.</li>
+        <li>Générer des graphiques des simulations dans Simulink et des données de calcul dans Matlab.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Système de commande de puissance</h2>
+      <p>Projet Intégrateur 1 : Concevoir un système de commande et de contrôle via le logiciel Logicim, utilisant des circuits logiques pour réguler la puissance des dispositifs électriques tout en garantissant une réception optimale de l'énergie.</p>
+      <ul>
+        <li>Planifier et rédiger un rapport technique d'ingénierie pour le projet.</li>
+        <li>Collaborer au sein d'une équipe de 5 personnes pour concevoir et présenter le projet.</li>
+        <li>Schématiser et concevoir un système de commande de puissance en respectant le budget.</li>
+        <li>Élaborer des diagrammes schématiques d'un système électrique de contrôle de fréquence.</li>
+        <li>Utiliser PSOC Creator pour visualiser les circuits logiques sur un microcontrôleur et un circuit électrique.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Système domotique de modulation des signaux numériques</h2>
+      <p>Projet Intégrateur 2 : Concevoir un système domotique en utilisant des circuits Électroniques pour permettre la gestion de plusieurs appareils domestiques via un seul fil de communication.</p>
+      <ul>
+        <li>Participer à la vérification des calculs et respecter les contraintes du mandat.</li>
+        <li>Utiliser des outils électriques tels que l’oscilloscope, multimètre et générateur de fonction DC/AC.</li>
+        <li>Appliquer des connaissances en filtres analogiques, modulateur, démodulateur et spectre de fréquence.</li>
+        <li>Effectuer des calculs sur des circuits électriques et électroniques analogiques et les vérifier sur LTSPICE.</li>
+        <li>Collaborer au sein d'une équipe de trois personnes pour la conception et rédaction d'un rapport technique.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Autodesk AutoCAD Electrical</h2>
+      <p>Conception Assistée par Ordinateur: Réaliser le dessin des circuits électriques et des circuits électroniques en utilisant AutoCAD, dans le but de schématiser des circuits.</p>
+      <ul>
+        <li>Utiliser des commandes de dessin et d'édition.</li>
+        <li>Comprendre des paramètres de projet et de dessin.</li>
+        <li>Réaliser la schématisation d'un circuit d’un moteur triphasé.</li>
+        <li>Réaliser la schématisation d'un circuit d’un convertisseur alternatif/continu.</li>
+        <li>Familiariser avec les symboles électriques, numéroter des fils et étiquer des composants.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Électrotechnique</h2>
+      <p>Énergie électrique: Vérifier les circuits, la distribution et la transmission d'Énergie Électrique en effectuant des calculs et de simulation de tension, courant, puissance pour des circuits monophasé et triphasés afin de s’assurer de bon fonctionnement des dispositifs électriques.</p>
+      <ul>
+        <li>Réaliser des calculs et effectuer la simulation sur le logiciel EMTP-RV.</li>
+        <li>Calculer des puissances apparentes, facteur de puissance et condensateur de compensation.</li>
+        <li>Utiliser les dispositifs tels que des transformateurs, des moteurs asynchrones triphasés (MAS).</li>
+        <li>Prendre des mesures en pratique ou sur logiciel des circuits électriques et les documenter dans un rapport.</li>
+        <li>Simuler de commande et régulation des systèmes de contrôle en boucle fermée tels que des PID sur Simulink.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Électricité du Bâtiment</h2>
+      <p>Électricité: Appliquer le Code de Construction du Québec-Électricité 2018 pour réaliser des calculs électriques, acquérir des connaissances des principales composantes de distribution électrique, et démontrer un engagement envers la sécurité et l'environnement.</p>
+      <ul>
+        <li>Déterminer différentes méthodes et matériaux pour assurer une connexion de terre efficace.</li>
+        <li>Effectuer l'inspection électrique d’un local de bâtiment conformément aux normes LSST et RSST.</li>
+        <li>Vérifier le câblage des prises électriques standards et différentielles à l'aide d'un testeur de prise.</li>
+        <li>Déterminer les normes relatives aux dégagements, aux chutes de tension et aux facteurs de correction.</li>
+        <li>Déterminer les charges, les courants admissibles des conducteurs et les calibres appropriés selon le code.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Radio AM</h2>
+      <p>Projet Électromagnétisme : Concevoir une radio AM en mettant en œuvre les concepts physiques de l'électricité et de l'électromagnétisme pour capter les stations AM de radio.</p>
+      <ul>
+        <li>Effectuer une démonstration et une présentation orale du projet.</li>
+        <li>Réaliser des calculs et effectuer la conception de manière autonome.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
   </div>
 
   <footer>
