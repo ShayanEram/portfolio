@@ -57,6 +57,7 @@ html, body {
   
   .project p {
     color: #333;
+    text-align: justify;
   }
   
   .project ul {
