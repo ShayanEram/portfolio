@@ -19,311 +19,415 @@
 
   <div class="container">
     <div class="project">
-      <h2>UAV</h2>
-      <p>This is a UAV project.</p>
+      <h2>OscilloGen</h2>
+      <p>Microcontroller Project: Developed a C/C++ firmware and a C# graphical interface for the design of an Oscilloscope with Function Generator functionality, based on an STM32 board that can be controlled by its interface.</p>
       <ul>
-        <li>uses C++</li>
-        <li>uses OOP</li>
+        <li>Used microcontroller interfaces such as GPIO, DMA, Timers, and interrupts.</li>
+        <li>Acquired and generate signals via embedded ADC/DAC or external FPGA.</li>
+        <li>Implemented SPI, I2C, USART/UART, and USB protocols for external communication.</li>
+        <li>Accelerated trigonometric calculations using CORDIC and the CMSIS-DSP library.</li>
+        <li>Implemented independent watchdog (IWDG) to prevent software crashes.</li>
+        <li>Implemented a modular software architecture in object-oriented C++, with hardware abstraction.</li>
+        <li>Programed in bare-metal via direct writing in the microcontroller's registers.</li>
+        <li>Optimized processing by critical functions written in ARM Assembler.</li>
+        <li>Developed a user interface in C# with Windows Forms and with a modern design.</li>
+        <li>Implemented an interface for the oscilloscope, function generator, and firmware update.</li>
+        <li>Implemented a modular architecture of the PC application with multiple WinForms pages.</li>
+        <li>Implemented unit testing with GoogleTest (C++) and NUnit (C#).</li>
+        <li>Used tools: STM32CubeIDE, Visual Studio Code, Git, CMake, GNU Toolchain.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Drone UAV</h2>
+      <p>C++ Embedded Project: Developed embedded software for a drone (UAV) in modern C++, integrating advanced concepts of software architecture, real-time, communication and remote supervision.</p>
+      <ul>
+        <li>Designed a modular software architecture in C++ with advanced object-oriented programming.</li>
+        <li>Implemented a real-time system with asynchronous and multithreaded execution.</li>
+        <li>Implemented remote communication with the drone via a TCP/IP-based client-server protocol.</li>
+        <li>Implemented inter-threaded communication patterns: Observer, Message Queue, Singleton.</li>
+        <li>Used direct access to hardware via Linux system interfaces: I2C, PWM, UART, files.</li>
+        <li>Acquired and process multi-sensor data (altitude, speed, orientation, battery).</li>
+        <li>Generated build files with CMake, Make and the GNU Toolchain.</li>
+        <li>Wrote and run unit tests with Google Test.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>F25 aircraft</h2>
+      <p>C++ Aerospace Project: Designed an embedded avionics system linking the pilot's controls to the flight computer, using the C++ language and avionics communication protocols, to enable reliable control of the aircraft.</p>
+      <ul>
+        <li>Generated build files with CMake, Make and the GNU Toolchain.</li>
+        <li>Documented the source code with Doxygen and perform version control on Git.</li>
+        <li>Developed an HTML web interface for real-time order entry.</li>
+        <li>Applied thread-safe methods to keep threads synchronized.</li>
+        <li>Implemented multithreading in C++ to parallelize module processes (ARINC 653).</li>
+        <li>Used ARINC 429 and AFDX communication protocols for transmission between modules.</li>
+        <li>Displayed dynamically flight parameters (angle of attack, speed, altitude) to the pilot.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Artificial Intelligence Game Agent</h2>
+      <p>Project AI: Designed an intelligent agent for a board game in Python, based on the Minimax algorithm, with alpha-beta pruning, custom heuristics and resource optimization. The goal was to compete against human players and other AI agents in a competitive environment.</p>
+      <ul>
+        <li>Implemented AI algorithms such as Minimax with alpha-beta pruning type A and B.</li>
+        <li>Developed heuristics to improve strategic performance and points management.</li>
+        <li>Collaborated in pairs with version control via Git for structured and collaborative development.</li>
+        <li>Used advanced Python features: object-oriented programming, collections, understandings.</li>
+        <li>Applied optimization techniques to reduce resource consumption and speed up response.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Automobile System</h2>
+      <p>Java Embedded Project: Developed embedded software in Java for the control and supervision of a modern vehicle, integrating advanced concepts of software architecture, real-time processing and on-board data management.</p>
+      <ul>
+        <li>Designed a modular architecture with independent functional modules.</li>
+        <li>Implemented a real-time system with multithreaded programming to ensure responsiveness.</li>
+        <li>Integrated a SQL database via JDBC to manage the vehicle's maintenance history.</li>
+        <li>Implemented advanced file management (File I/O) for acquisition and link with sensors.</li>
+        <li>Implemented a robust exception handling mechanism to ensure system reliability.</li>
+        <li>Implemented API calls for GPS location and JSON data analysis with a JSON Parser.</li>
+        <li>Used Java collections to efficiently manipulate complex data structures.</li>
+        <li>Implemented a client-server (TCP/IP) model for telematics functionality.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Neural Network on FPGA</h2>
+      <p>C++/Scala project: Developed a multilayer neural network for the classification of handwritten digits using the MNIST dataset. The implementation is done in both C++ HLS (generating VHDL) and Scala Chisel (generating Verilog) for execution on FPGA (PYNQ).</p>
+      <ul>
+        <li>Used Vitis HLS and Xilinx Vivado tools with an FPGA board with an integrated ASIC.</li>
+        <li>Wrote code in Scala Chisel to generate Verilog for hardware synthesis.</li>
+        <li>Performed performance and resource utilization analysis between the two implementations.</li>
+        <li>Developed optimized HLS C/C++ code, which is then converted to VHDL for a hardware implementation.</li>
+        <li>Designed custom IPs with Vivado and ensure communication with ASIC via DMA.</li>
+        <li>Performed a first validation of the algorithm in Python and C++ on a processor in software form.</li>
+        <li>Applied artificial intelligence concepts, including multilayer neural networks (MLPs).</li>
+        <li>Implemented the neural network on FPGAs and validate the results using a Jupyter notebook in Python.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Cross-compiled facial recognition on Linux</h2>
+      <p>C++ cross-compilation project: Developed a facial recognition program via cross-compilation between an x86-based computer and an ARM-based microcontroller on Linux, using the C++ language on the VS Code IDE. The goal is to recognize one face among others.</p>
+      <ul>
+        <li>Documented the code with Doxygen and save it to Git/Bitbucket.</li>
+        <li>Generated build files with CMake, make, and GNU Toolchaine.</li>
+        <li>Used fork-exec mechanisms for parallel execution of programs.</li>
+        <li>Enforced TCP/IP Sockets protocols for cross-compilation on Linux.</li>
+        <li>Used the Linux command line (Bash and Tcsh) and implemented Linux device management.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>F1 video game on ARM microcontroller</h2>
+      <p>Microcontroller Project: Enhanced the T-Rex video game by integrating microcontroller concepts, ARM architecture, and assembler programming to make the game multiplayer with an IR sensor and an ultrasonic sensor.</p>
+      <ul>
+        <li>Created an advertising video showcasing the product.</li>
+        <li>Applied serial communication protocols (UART, SPI, I2C).</li>
+        <li>Wrote Unit Tests using Unity to verify the operation of the program.</li>
+        <li>Collaborated as part of a team of three people for the design of the video game.</li>
+        <li>Used microcontrollers with C and ARM assembly computer languages on Keil uVision5.</li>
+        <li>Applied microcontroller knowledge with STM32Cube and data transfer (DMA, DAC, ADC).</li>
+        <li>Configured various peripherals on STM32CubeMX, such as GPIOs, Timers, and Interrupts.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Qt Creator Graphics Library</h2>
+      <p>C++ OOP GUI project: Developed a library with graphical user interface (GUI) by implementing the principles of C++ object-oriented programming, exception handling and Qt Creator to easily classify the different Pokémon according to their statistics.</p>
+      <ul>
+        <li>Used Visual Studio and Qt Creator.</li>
+        <li>Collaborated in a two-person team.  </li>
+        <li>Wrote Unit Tests using Google Test to check the classes and functions of the program.</li>
+        <li>Implemented the principles of the model-view-controller pattern on Qt Creator and OOP on C++.</li>
+        <li>Used the concepts of encapsulation, inheritance, polymorphism, abstraction, and templates.</li>
+        <li>Used the concepts of Operator Overload, Exception Handling, and Standard Template Library (STL).</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Max-Cut solver on FPGA</h2>
+      <p>HLS C++ Project: Solved the NP-difficult Max-Cut optimization problem on an FPGA using the algorithm of simulated annealing via the HLS tool in C++. Particular attention was paid to writing optimized C++ code in order to efficiently generate VHDL code for a hardware implementation on FPGA (PYNQ).</p>
+      <ul>
+        <li>Validated results on FPGA via a Jupyter Notebook in Python.</li>
+        <li>Used Vitis HLS and Xilinx Vivado tools with an ASIC-integrated FPGA board.</li>
+        <li>Checked the initial algorithm in Python and C++ on a processor (CPU) in software form.</li>
+        <li>Applied optimization techniques from artificial intelligence, such as simulated annealing.</li>
+        <li>Developed optimized C/C++ code, convertible to VHDL for logical gate implementation.</li>
+        <li>Analyzed thoroughly performance differences and resources used across implementations.</li>
+        <li>Implemented custom IPs with Vivado and ensure communication with ASIC via DMA.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Mastermind Game on FPGA</h2>
+      <p>VHDL Project: Created an electronic version of the Mastermind game on an FPGA board using the VHDL hardware language with the VIVADO Xilinx environment and implementing the game on Digilent's Nexys Video development platform (Artix-7).</p>
+      <ul>
+        <li>Collaborated as part of a two-person team for game design.</li>
+        <li>Managed the initialization and power-off of an OLED display and use ROM and RAM memories.</li>
+        <li>Proceeded through the VHDL development stages (RTL Analysis, Synthesis, Implementation, Simulation).</li>
+        <li>Verified VHDL codes by writing test benches and implement IPs and use logic analyzer.</li>
+        <li>Implemented finite state machines (MSAs), anti-bounce circuits, synchronizers, and clock dividers.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>RISC-V CPU Processor</h2>
+      <p>Integrated Circuit Project: Designed a five-stage RISC-V processor using VHDL over Active-HDL and create mask drawings for route placement. The processor is designed to execute commands in the RISC-V assembly language.</p>
+      <ul>
+        <li>Collaborated in a two-person team.  </li>
+        <li>Created mask designs on Cadence's Virtuoso.</li>
+        <li>Verified and simulate VHDL codes by writing test benches.</li>
+        <li>Used a package file and group the signals together to keep the code clean.</li>
+        <li>Implemented pipeline Fetch, Decode, Execute, Memory, Write Back with ALU, Adder, Shift_Register, etc.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Stocks & Investment Portfolio</h2>
+      <p>C# API Project: Developed an investment portfolio program using the C# language with Visual Studio and .NET. This program allows a user to track a company's actions, authenticate to buy or sell shares, or verify information about a company with their personal API.</p>
+      <ul>
+        <li>Used REST API and read from a JSON file.</li>
+        <li>Applied object-oriented programming and C# concepts.</li>
+        <li>Used custom, public APIs to check the status of company actions.</li>
+        <li>Made the program modular by using classes and methods on different files.</li>
+        <li>Respected encapsulation by defining public and private classes to ensure system security.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Personal Finance Management</h2>
+      <p>Python Data Base project: Developed a money tracking program using the Python language with object-oriented programming (OOP) and SQL. The program allows you to enter and record expenses and personal budget over a period of time, either in a CSV file or in a SQL database, depending on the user's preference.</p>
+      <ul>
+        <li>Used Exception Management concepts to ensure program fluidity.</li>
+        <li>Made the program modular by using classes and definitions on different files.</li>
+        <li>Performed read and write operations on a SQL database and CSV files.</li>
+        <li>Used VS Code and PyCharm development environments and document code with Doxygen.</li>
+        <li>Applied the concepts of the Python language and the principles of object-oriented programming.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Email Builder</h2>
+      <p>Java project: Developed a program to manage e-mail addresses using the Java language on VS Code. This program allows a company to generate emails for their employees based on their jobs in the company and the employer to customize it.</p>
+      <ul>
+        <li>Generated strong and secure passwords using SecureRandom.</li>
+        <li>Encapsulated sensitive information and management operations.</li>
+        <li>Used string manipulation techniques to generate email addresses.</li>
+        <li>Documented the project using Doxygen comments to improve readability and maintainability.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Smart lock with remote power transfer</h2>
+      <p>Integrator Project 3: Designed a remotely powered smart lock using a microcontroller (C) and an electromagnetic induction circuit that allows the lock to be opened using a mobile phone and RFID, while powering the device without any physical contact.</p>
+      <ul>
+        <li>Carried out research and documentation of the project independently.</li>
+        <li>Verified the project and the progress of the project under the supervision of an electrical engineer.</li>
+        <li>Created schematic diagrams of the circuit and designed the project independently.</li>
+        <li>Wrote an engineering technical report and presented the prototype in a professional manner.</li>
+        <li>Adhered to the design steps of an engineering project and the timelines for each stage of the project./li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Street Warfare (Third-Person Shooter)</h2>
+      <p>Video Game Project: Designed a 6v6 multiplayer video game in third-person view on Unreal Engine 5, playable online or against artificial intelligence, implementing tactical shooter mechanics and an immersive environment.</p>
+      <ul>
+        <li>Created a game map with interactive elements and optimized level design.</li>
+        <li>Developed an interactive menu with various game options.</li>
+        <li>Integrated realistic characters via MetaHuman.</li>
+        <li>Imported and synchronize animations with built-in sound effects.</li>
+        <li>Integrated 3D models (meshes) of characters, weapons and scenery.</li>
+        <li>Implemented gameplay logics using Blueprints and C++ under Unreal Engine.</li>
+        <li>Performed successive iterations of the gameplay based on feedback from playtest sessions.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Security and penetration testing audit</h2>
+      <p>Cybersecurity: Performed a security audit in a simulated environment using Kali Linux and various penetration testing tools. The project included identifying critical vulnerabilities, ethically exploiting vulnerabilities to demonstrate privilege escalation, and making concrete recommendations to strengthen the security of the system.</p>
+      <ul>
+        <li>Gained administrator access by elevation of privilege.</li>
+        <li>Conducted a comprehensive security audit in a controlled, isolated environment.</li>
+        <li>Used Kali Linux on a virtual machine with servers deployed via Docker.</li>
+        <li>Wrote technical recommendations to address identified vulnerabilities.</li>
+        <li>Detected critical vulnerabilities and use them ethically for demonstration purposes.</li>
+        <li>Identified IP addresses, scan ports, and scan services using Netdiscover and Nmap.</li>
+        <li>Exploited vulnerabilities and crack hashed passwords using Metasploit and Hashcat.</li>
+        <li>Detected hidden directories and identify vulnerabilities in a WordPress site with DirBuster and WPScan.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Tic-Tac-Toe Video Game</h2>
+      <p>Python GUI project: Developed the game Tic-Tac-Toe, played by two people, using the Python language with PyQt Designer on MS Windows. The goal is to use Python with a graphical interface to determine the winner of the game.</p>
+      <ul>
+        <li>Documented the code with Doxygen.</li>
+        <li>Used VS Code development environments.</li>
+        <li>Wrote a modular program using definitions.</li>
+        <li>Used features of the PyQt Designer and apply the concepts of GUI design.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Qt Web Browser</h2>
+      <p>Project in Python with PyQt5: Enhanced a web browser using Python and PyQt5 on Visual Studio to allow Internet browsing without the use of a graphical user interface (GUI).</p>
+      <ul>
+        <li>Used features of PyQt5.</li>
+        <li>Applied concepts from the Python language.</li>
+        <li>Added customization to the web browser.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Nature Travel website</h2>
+      <p>Front-End Project: Developed a custom website using HTML, CSS and JavaScript on Visual Studio Code with Live Server, with the goal of creating an interactive and aesthetically pleasing website to promote outdoor activities.</p>
+      <ul>
+        <li>Applied concepts from HTML5, Javascript, CSS.</li>
+        <li>Put interactive website development into practice.</li>
+        <li>Created structured and easily accessible documentation with Doxygen.</li>
+      </ul>
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
+    </div>
+
+    <div class="project">
+      <h2>Matlab and Simulink</h2>
+      <p>Matlab and Simulink: Repeatedly used Matlab and Simulink tools to simulate system behavior. Used these programs to simulate closed-loop feedback systems, as well as simulate the response of telecommunication systems and analyze signals.</p>
+      <ul>
+        <li>Performed matrix calculations using Matlab.</li>
+        <li>Wrote function files and use Matlab functions.</li>
+        <li>Wrote and simulate transfer functions in Simulink and Matlab.</li>
+        <li>Created simulation tables in Simulink and calculation data in Matlab.</li>
+        <li>Generated simulation graphs in Simulink and calculation data graphs in Matlab.</li>
       </ul>
       <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
       <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
     </div>
-
+    
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>Power Control system</h2>
+      <p>Integrator Project 1: Designed a control circuit and a monitoring circuit on the Logicim software using logic circuits to regulate the power of electrical devices and verify the power received.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Planned and wrote an engineering technical report for the project.</li>
+        <li>Collaborated in a team of 5 people to design and present the project.</li>
+        <li>Diagrammed and designed a power control system within budget.</li>
+        <li>Developed schematic diagrams of an electrical frequency control system.</li>
+        <li>Used PSOC Creator to visualize logic circuits on a microcontroller and electrical circuit.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>Home automation system for modulating digital signals</h2>
+      <p>Integrator Project 2: Designed a home automation system using electronic circuits to allow the management of several household devices via a single communication wire.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Participated in the verification of calculations and respect the constraints of the mandate.</li>
+        <li>Used instruments such as oscilloscope, multimeter, and DC/AC function generator.</li>
+        <li>Applied knowledge of analog filters, modulator, demodulator, and frequency spectrum.</li>
+        <li>Performed calculations on analog electrical and electronic circuits and verify them on LTSPICE.</li>
+        <li>Collaborated as part of a team of three people to design and write a technical report.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>Autodesk AutoCAD Electrical</h2>
+      <p>Computer-Aided Design: Drawing electrical and electronic circuits using AutoCAD to diagram circuits.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Used drawing and editing commands.</li>
+        <li>Understood project and drawing settings.</li>
+        <li>Diagramed a circuit of a three-phase motor.</li>
+        <li>Carried out a circuit diagram of an AC/DC converter.</li>
+        <li>Familiarized with electrical symbols, number wires, and label components.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>Electrotechnics</h2>
+      <p>Electrical Energy: Checked circuits, distribution, and transmission of Electrical Energy by performing calculations and simulations of voltage, current, power for single-phase and three-phase circuits to ensure the proper functioning of electrical devices.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Performed calculations and simulation on EMTP-RV software.</li>
+        <li>Calculated apparent powers, power factor and compensating capacitor.</li>
+        <li>Used devices such as transformers, three-phase asynchronous motors (MAS).</li>
+        <li>Simulated control and regulation of closed-loop control systems such as PIDs on Simulink.</li>
+        <li>Took practical or software-based measurements of electrical circuits and document them in a report.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>Building Electricity</h2>
+      <p>Electricity: Applied the 2018 Quebec-Electricity Construction Code to perform electrical calculations, acquired knowledge of the main electrical distribution components, and demonstrated a commitment to safety and the environment.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Performed an electrical inspection of a building space in accordance with LSST and RSST standards.</li>
+        <li>Checked the wiring of standard and differential electrical outlets using an outlet tester.</li>
+        <li>Determined the appropriate loads, conductor ampings, and ratings according to the code.</li>
+        <li>Determined different methods and materials to ensure an efficient ground connection.</li>
+        <li>Determined standards for clearances, voltage drops, and correction factors.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
     <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
+      <h2>AM Radio </h2>
+      <p>Electromagnetism Project: Designed an AM radio by implementing the physical concepts of electricity and electromagnetism to pick up AM radio stations.</p>
       <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
+        <li>Performed calculations and design independently.</li>
+        <li>Conducted a demonstration and oral presentation of the project.</li>
       </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
-    </div>
-
-    <div class="project">
-      <h2>Oscilloscope</h2>
-      <p>This is an oscilloscope project.</p>
-      <ul>
-        <li>uses C and C++</li>
-        <li>uses OPP and functions</li>
-      </ul>
-      <img src="../shared/images/photo1.jpg" alt="Project Photo 1" />
-      <img src="../shared/images/photo2.jpg" alt="Project Photo 2" />
+      <img src="../shared/images/photo1.jpg" alt="Photo du projet 1" />
+      <img src="../shared/images/photo2.jpg" alt="Photo du projet 2" />
     </div>
 
   </div>
