@@ -22,19 +22,19 @@
       <h2>OscilloGen</h2>
       <p>Projet Microcontrôleur : Développer un micrologiciel en C/C++ et d’une interface graphique en C# pour la conception d’un Oscilloscope doté de fonctionnalités de Générateur de Fonctions, basé sur une carte STM32 qui peut être contrôlé par son interface.</p>
       <ul>
-        <li>Utiliser des interfaces microcontrôleurs tels que GPIO, DMA, Timers et interruptions.</li>
+        <li>Implémenter de tests unitaires avec GoogleTest (C++) et NUnit (C#).</li>
         <li>Acquérir et générer de signaux via ADC/DAC embarqués ou FPGA externe.</li>
+        <li>Optimiser le traitement par des fonctions critiques écrites en Assembleur ARM.</li>
+        <li>Utiliser des outils: STM32CubeIDE, Visual Studio Code, Git, CMake, GNU Toolchain.</li>
+        <li>Implémenter du watchdog indépendant (IWDG) pour prévenir les blocages logiciels.</li>
+        <li>Utiliser des interfaces microcontrôleurs tels que GPIO, DMA, Timers et interruptions.</li>
+        <li>Programmer en bare-metal via écriture directe dans les registres du microcontrôleur.</li>
         <li>Implémenter des protocoles SPI, I2C, USART/UART, et USB pour la communication externe.</li>
         <li>Accélérer des calculs trigonométriques à l’aide de CORDIC et de la librairie CMSIS-DSP.</li>
-        <li>Implémenter du watchdog indépendant (IWDG) pour prévenir les blocages logiciels.</li>
-        <li>Implémenter une architecture logicielle modulaire en C++ orienté objet, avec abstraction du matériel.</li>
-        <li>Programmer en bare-metal via écriture directe dans les registres du microcontrôleur.</li>
-        <li>Optimiser le traitement par des fonctions critiques écrites en Assembleur ARM.</li>
         <li>Développer une interface utilisateur en C# avec Windows Forms et avec un design moderne.</li>
-        <li>Implémenter une interface pour l’oscilloscope, le générateur de fonction et la mise à jour du micrologiciel.</li>
         <li>Implémenter une architecture modulaire de l’application PC avec multiples pages WinForms.</li>
-        <li>Implémenter de tests unitaires avec GoogleTest (C++) et NUnit (C#).</li>
-        <li>Utiliser des outils: STM32CubeIDE, Visual Studio Code, Git, CMake, GNU Toolchain.</li>
+        <li>Implémenter une architecture logicielle modulaire en C++ orienté objet, avec abstraction du matériel.</li>
+        <li>Implémenter une interface pour l’oscilloscope, le générateur de fonction et la mise à jour du micrologiciel.</li>
       </ul>
       <img src="../shared/images/stm32h7.jpg" alt="Photo du projet 1" />
       <img src="../shared/images/osc1.png" alt="Photo du projet 2" />
@@ -48,14 +48,15 @@
       <h2>Drone UAV</h2>
       <p>Projet Embarqué C++: Développer du logiciel embarqué d’un drone (UAV) en C++ moderne, intégrant des concepts avancés d’architecture logicielle, temps réel, communication et supervision à distance.</p>
       <ul>
-        <li>Concevoir d’une architecture logicielle modulaire en C++ avec programmation orientée objet avancée.</li>
-        <li>Implémenter un système temps réel avec exécution asynchrone et multithreadée.</li>
-        <li>Implémenter la communication distante avec le drone via un protocole client-serveur basé sur TCP/IP.</li>
-        <li>Implémenter des modèles de communication inter-threads : Observer, Message Queue, Singleton.</li>
-        <li>Utiliser un accès direct au matériel via les interfaces systèmes Linux : I2C, PWM, UART, fichiers.</li>
-        <li>Acquérir et traiter de données multi-capteurs (altitude, vitesse, orientation, batterie).</li>
-        <li>Générer des fichiers de compilation avec CMake, Make et la GNU Toolchain.</li>
         <li>Écrire et exécuter de tests unitaires avec Google Test.</li>
+        <li>Générer des fichiers de compilation avec CMake, Make et la GNU Toolchain.</li>
+        <li>Implémenter un système temps réel avec exécution asynchrone et multithreadée.</li>
+        <li>Acquérir et traiter de données multi-capteurs (altitude, vitesse, orientation, batterie).</li>
+        <li>Utiliser un accès direct au matériel via les interfaces systèmes Linux : I2C, PWM, UART, fichiers.</li>
+        <li>Utiliser des concepts C++ avancés : Atomic, STL, Singleton, Template, valeurs Compile-Time, RAII.</li>
+        <li>Implémenter des modèles de communication inter-threads : Observer, Message Queue, Singleton.</li>
+        <li>Concevoir d’une architecture logicielle modulaire en C++ avec programmation orientée objet avancée.</li>
+        <li>Implémenter la communication distante avec le drone via un protocole client-serveur basé sur TCP/IP.</li>
       </ul>
       <img src="../shared/images/rasbp5.jpg" alt="Photo du projet 1" />
       <img src="../shared/images/uav.png" alt="Photo du projet 2" />
@@ -94,13 +95,13 @@
       <p>Projet Embarqué Java : Développer un logiciel embarqué en Java pour le pilotage et la supervision d’un véhicule moderne, intégrant des concepts avancés d’architecture logicielle, de traitement temps réel et de gestion de données embarquées.</p>
       <ul>
         <li>Concevoir une architecture modulaire avec des modules fonctionnels indépendants.</li>
-        <li>Implémenter un système temps réel avec programmation multithreadée pour garantir la réactivité.</li>
-        <li>Intégrer une base de données SQL via JDBC pour gérer l’historique de maintenance du véhicule.</li>
-        <li>Implémenter la gestion avancée des fichiers (File I/O) pour l’acquisition et la liaison avec les capteurs.</li>
-        <li>Mettre en place un mécanisme robuste de gestion des exceptions pour assurer la fiabilité du système.</li>
-        <li>Implémenter des appels API pour la position GPS et l’analyse des données JSON avec un JSON Parser.</li>
-        <li>Utiliser des collections Java pour manipuler efficacement les structures de données complexes.</li>
         <li>Implémenter un modèle client-serveur (TCP/IP) pour les fonctionnalités télématiques.</li>
+        <li>Utiliser des collections Java pour manipuler efficacement les structures de données complexes.</li>
+        <li>Intégrer une base de données SQL via JDBC pour gérer l’historique de maintenance du véhicule.</li>
+        <li>Implémenter un système temps réel avec programmation multithreadée pour garantir la réactivité.</li>
+        <li>Implémenter des appels API pour la position GPS et l’analyse des données JSON avec un JSON Parser.</li>
+        <li>Mettre en place un mécanisme robuste de gestion des exceptions pour assurer la fiabilité du système.</li>
+        <li>Implémenter la gestion avancée des fichiers (File I/O) pour l’acquisition et la liaison avec les capteurs.</li>
       </ul>
       <img src="../shared/images/rasbp5.jpg" alt="Photo du projet 1" />
       <img src="../shared/images/modernCar.jpg" alt="Photo du projet 2" />
@@ -403,15 +404,6 @@
         <li>Vérifier le câblage des prises électriques standards et différentielles à l'aide d'un testeur de prise.</li>
         <li>Déterminer les normes relatives aux dégagements, aux chutes de tension et aux facteurs de correction.</li>
         <li>Déterminer les charges, les courants admissibles des conducteurs et les calibres appropriés selon le code.</li>
-      </ul>
-    </div>
-
-    <div class="project">
-      <h2>Radio AM</h2>
-      <p>Projet Électromagnétisme : Concevoir une radio AM en mettant en œuvre les concepts physiques de l'électricité et de l'électromagnétisme pour capter les stations AM de radio.</p>
-      <ul>
-        <li>Effectuer une démonstration et une présentation orale du projet.</li>
-        <li>Réaliser des calculs et effectuer la conception de manière autonome.</li>
       </ul>
     </div>
 
